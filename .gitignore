@@ -3,9 +3,10 @@
 
 # Log file
 *.log
-node_modules
+/node_modules/
 .DS_Store
-
+/disk/
+npm-debug.log
 # BlueJ files
 *.ctxt
 
