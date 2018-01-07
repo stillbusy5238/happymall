@@ -4,8 +4,8 @@
   "description": "web project",
   "main": "index.js",
   "scripts": {
-    "dev" : "WEBPACK_ENV=dev webpack-dev-server --inline --port 8088",
-    "disk" : "WEBPACK_ENV=online webpack -p"
+    "dev": "WEBPACK_ENV=dev webpack-dev-server --inline --port 8088",
+    "disk": "WEBPACK_ENV=online webpack -p"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,10 @@
     "url": "https://github.com/stillbusy5238/happymall/issues"
   },
   "homepage": "https://github.com/stillbusy5238/happymall#readme",
-  "dependencies": {},
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "hogan": "^1.0.2"
+  },
   "devDependencies": {
     "css-loader": "^0.28.8",
     "extract-text-webpack-plugin": "^1.0.1",
