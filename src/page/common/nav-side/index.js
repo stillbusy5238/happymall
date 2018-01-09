@@ -8,7 +8,7 @@ var navSide ={
     navList : [
       {name: 'user-center', desc : 'my information', herf: './user-center.html'},
       {name: 'order-list', desc : 'my order', herf: './order-list.html'},
-      {name: 'pass-update', desc : 'my password', herf: './pass-update.html'},
+      {name: 'pass-update', desc : 'my password', herf: './user-pass-update.html'},
       {name: 'about', desc : 'about MMall', herf: './about.html'}
     ]
 

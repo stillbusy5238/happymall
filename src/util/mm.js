@@ -11,7 +11,7 @@ var _mm = {
       url: param.url    || '',
       dataType: param.type || 'json',
       data : param.data || '',
-      sucess : function(res){
+      success : function(res){
         if(0 === res.status){
           //请求成功
           typeof param.sucess === 'function' && param.sucess(res.data, res.msg);
@@ -53,7 +53,7 @@ var _mm = {
 
   },
   //成功提示
-  sucessTip: function(msg){
+  successTip: function(msg){
     alert(msg ||'操作成功');
 
   },
@@ -63,7 +63,7 @@ var _mm = {
   },
   //字段的验证,支持非空
   validate: function(value, type){
-    var value = s.trim(value);
+    var value = $.trim(value);
     //非空验证
     if('require' === type){
       return !!value;
@@ -83,7 +83,7 @@ var _mm = {
 
   //统一登陆处
   doLogin : function(){
-    window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+    window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
   },
   foHome: function(){
     window.location.href = './index.html';
