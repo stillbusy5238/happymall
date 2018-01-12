@@ -85,7 +85,7 @@ var _mm = {
   doLogin : function(){
     window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
   },
-  foHome: function(){
+  goHome: function(){
     window.location.href = './index.html';
 
   }

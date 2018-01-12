@@ -5,6 +5,7 @@ var _mm = require('util/mm.js');
 
 var header ={
   init:function(){
+    this.onload();
     this.bindEvent();
 
 

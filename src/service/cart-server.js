@@ -12,7 +12,18 @@ var _cart ={
       sucess : resolve,
       error : reject
     });
+  },
+  //添加购物车
+  addToCart: function(productInfo,resolve,reject){
+    _mm.request({
+      //登出
+      url: _mm.getServerUrl('/cart/add.do'),
+      data : productInfo,
+      sucess : resolve,
+      error : reject
+    });
   }
+
 }
 
 module.exports = _cart;
