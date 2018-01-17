@@ -11,6 +11,7 @@
 }
 .nav-side .nav-item .link{
   color:#888;
+  margin-left: 10px; 
 }
 
 .nav-side .nav-item.active .link{

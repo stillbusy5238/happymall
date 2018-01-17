@@ -1,0 +1,30 @@
+
+{{#list}}
+{{#isActive}}
+<div class="address-item active" data-id={{id}}>
+{{/isActive}}
+{{^isActive}}
+<div class="address-item" data-id={{id}}>
+{{/isActive}}
+
+  <div class="address-title">
+    {{receiverCity}} {{receiverProvince}} ({{receiverName}} receive)
+  </div>
+  <div class="address-detail">
+    {{receiverAddress}} {{receiverPhone}}
+  </div>
+  <div class="address-opera">
+    <span class="link address-update">setting</span>
+    <span class="link address-delete">delete</span>
+  </div>
+</div>
+{{/list}}
+
+<div class=" address-add">
+  <div class="address-new">
+    <i class="fa fa-plus"></i>
+    <div class="text">use new address</div>
+
+  </div>
+
+</div>
