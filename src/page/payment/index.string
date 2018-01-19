@@ -1,0 +1,5 @@
+<p class="payment-tips">order submit success.orderNo：{{orderNo}}</p>
+<p class="payment-tips enhance">qrCode：</p>
+<div class="img-con">
+    <img class="qr-code" src="{{qrUrl}}" alt="支付二维码" />
+</div>
