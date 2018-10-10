@@ -1,4 +1,7 @@
-Electronic business Web project,
+In branches mmall_v1.0
+
+
+E-commerce Web project,
 
  	1.Layered architecture and Modular design by webpack. CommonJs standard.
   
